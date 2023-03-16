@@ -45,7 +45,7 @@ In the main function, you will find calls to functions that generate mock-up dat
 
 For now, you can generate data similar to following pseudo data:
 
-* Tabular Data
+### Tabular Data
 
    * University Student Data `tabular/student.py`
 
@@ -58,7 +58,7 @@ Maria        |  Wiggins      |  2138736257  |  3.4   |  Sociology               
 Robin        |  Barrera      |  2787155251  |  2.16  |  Tourism                                 |  2020             |  1957-10-20
 Jessica      |  Thompson     |  2450628649  |  2.47  |  Psychology                              |  2021             |  1973-03-13
 
-  * Bank Account Data `tabular/bank.py` 
+* Bank Account Data `tabular/bank.py` 
 
 Customer ID                           |  SSN Number   |  Customer Name  |  Customer Surname  |  Email                             |  Address Street                       |  Address State   |  Address City              |  Address Country  |  Address Zipcode  |  Phone Number            |  Account Type  |  Account Balance  |  Customer Age  |  Date of Account Opening  |  Customer Gender  |  Customer Occupation                                          |  Customer Education Level
 --------------------------------------|---------------|-----------------|--------------------|------------------------------------|---------------------------------------|------------------|----------------------------|-------------------|-------------------|--------------------------|----------------|-------------------|----------------|---------------------------|-------------------|---------------------------------------------------------------|--------------------------
@@ -83,9 +83,9 @@ Date        |  City            |  Magnitude  |  Depth (km)  |  Duration (s)  |  
 2015-09-04  |  Nevşehir        |  4.6        |  5           |  10.2          |  40.42     |  40.51
 
 
-* Graph Data `graph/train_routes.py`
+### Graph Data 
 
-   * Train Routes Data
+   * Train Routes Data `graph/train_routes.py`
 
 Source              |  Destination         |  Distance
 --------------------|----------------------|----------
@@ -118,7 +118,7 @@ Brianfort           |  West Kimberly       |  69
 Brianfort           |  Cherylfurt          |  26
 
   
-  * Social Media Data `graph/social_media.py`
+   * Social Media Data `graph/social_media.py`
 
 Handle           |  Name      |  Surname    |  Age  |  Email                        |  Total Post Count  |  Following
 -----------------|------------|-------------|-------|-------------------------------|--------------------|-----------
